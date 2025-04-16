@@ -16,7 +16,7 @@ const setBodyBGColor = function (color) {
 // Implementação da lógica
 const checkGuess = function () {
   const guess = Number(document.querySelector('.guess').value);
-  console.log(guess, typeof guess);
+  // console.log(guess, typeof guess);
 
   // When there is no input
   if (!guess) {
